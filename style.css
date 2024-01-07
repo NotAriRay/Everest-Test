@@ -1,0 +1,55 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+img {
+    animation: front-in-1 0.6s -0.2s both;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  right: 25%;
+  max-width: 180vw;
+  filter: drop-shadow(0 0 32px rgba(0, 0, 0, 0.5));
+  width: 817px;
+  height: 192px;
+}
+
+#body-bg {
+
+    width: 817px;
+    height: 1250px;
+    background-color: rgba(24, 28, 46, 0.85);
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    right: 20%;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 20px;
+}
+
+.text {
+    padding: 10px;
+    text-align: center;
+    color: rgba(232, 230, 227, 0.87);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    padding: 10px;
+    text-align: left;
+    color: rgba(232, 230, 227, 0.87);
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+
+    padding: 10px;
+    color: rgba(232, 230, 227, 0.87);
+    font-family: 'Poppins', sans-serif;
+}
